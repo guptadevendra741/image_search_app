@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bookmark-container{
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.bookmark-results{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
